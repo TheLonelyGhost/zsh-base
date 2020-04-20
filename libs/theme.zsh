@@ -1,0 +1,3 @@
+
+set promptsubst
+prompt thelonelyghost
