@@ -8,4 +8,3 @@ zstyle ':vcs_info:git*' check-for-changes true
 zstyle ':vcs_info:*' enable git
 
 autoload -Uz vcs_info
-precmd() { vcs_info }
