@@ -1,2 +1,0 @@
-set promptsubst
-prompt thelonelyghost

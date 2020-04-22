@@ -2,8 +2,6 @@
 setopt autopushd pushdminus pushdsilent pushdtohome
 DIRSTACKSIZE=5
 
-export MY_PLUGIN='tester'
-
 # Enable extended globbing
 setopt extendedglob
 # Directories end in `/` when globs match them
