@@ -11,6 +11,12 @@ done
 
 __hostname=$(uname -n)
 
+chpwd() {
+  if [ -t 1 ]; then
+    ls
+  fi
+}
+
 precmd() {
   vcs_info
 
