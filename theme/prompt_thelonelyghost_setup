@@ -1,1 +1,4 @@
-/home/thelonelyghost/.dotfiles/zsh/themes/prompt_thelonelyghost_setup
+# vim: ft=zsh
+
+PROMPT=$'%(0?..%? )%B%(0?.%F{green}.%F{red})%{%1G\u279c%}%f%b %B%F{blue}%c%f%b %(!.%B%K{red}#%b%k.%f%b%k%%) '
+RPROMPT='${vcs_info_msg_0_}'

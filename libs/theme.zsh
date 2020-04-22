@@ -1,3 +1,2 @@
-
 set promptsubst
 prompt thelonelyghost
