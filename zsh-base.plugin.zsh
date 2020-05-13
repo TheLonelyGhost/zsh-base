@@ -13,7 +13,11 @@ __hostname=$(uname -n)
 
 chpwd() {
   if [ -t 1 ]; then
-    ls
+    if [ -e '/Library' ]; then
+      ls -FG
+    else
+      ls -F --color=auto
+    fi
   fi
 }
 
