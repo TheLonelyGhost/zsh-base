@@ -14,7 +14,7 @@ __hostname=$(uname -n)
 chpwd() {
   if [ -t 1 ]; then
     if [ -e '/Library' ]; then
-      ls -FG
+      /bin/ls -FG
     else
       ls -F --color=auto
     fi
